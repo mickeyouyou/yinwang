@@ -103,3 +103,7 @@ img {
 hr {
     color: LightGrey;
 }
+
+p {
+    text-indent: 2em;
+}
