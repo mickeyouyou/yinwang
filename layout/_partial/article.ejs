@@ -1,6 +1,6 @@
 <% if (post && index){ %>
 <li class="list-group-item title">
-    <a href="<%- url_for(post.path)%>"><%= post.title%></a>
+    <a target="_blank" href="<%- url_for(post.path)%>"><%= post.title%></a>
 </li>
 <% } else { %>
 <%- post.content %>
