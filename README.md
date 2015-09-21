@@ -12,7 +12,7 @@ www.fzb.me Blog Theme For Hexo
 
 ![content page](http://7tsys1.com1.z0.glb.clouddn.com/屏幕快照%202015-09-14%20下午9.30.51.png)
 
-###安装
+### Install
 
 ```sh
 $ git clone https://github.com/mickeyouyou/yinwang.git
