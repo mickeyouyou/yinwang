@@ -15,7 +15,7 @@ www.fzb.me Blog Theme For Hexo
 ### Install
 
 ```sh
-$ git clone https://github.com/mickeyouyou/yinwang.git
+$ git clone https://github.com/mickeyouyou/yinwang.git themes/yinwang
 ```
 
 
