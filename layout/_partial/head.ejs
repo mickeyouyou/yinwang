@@ -11,7 +11,9 @@
     <%- css('css/style.css')%>
     <%}%>
     <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
-    <link href="http://download.easyicon.net/ico/1097219/24/" rel="shortcut icon" type="image/x-icon"/>
+    <%if(theme.favicon){ %>
+      <link rel="shortcut icon" type="image/x-icon" href="<%- url_for(theme.favicon)%>?v=<%- theme.version %>"/>
+    <%}%>
 
     <%
     var title = page.title;
