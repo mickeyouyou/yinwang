@@ -10,10 +10,11 @@ keywords: "My Blog, Spider Bitch!"
 
 
 menu:
-  home: /
+  Blog: /
   #categories: /categories
-  #about: /about
-  archives: /archives
-  tags: /tags
-  #commonweal: /404.html
+  #archives: /archives
+  #tags: /tags
+  GitHub: https:github.com/mickeyouyou
+  About: /about
+
 
