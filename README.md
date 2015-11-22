@@ -23,11 +23,11 @@ $ git clone https://github.com/mickeyouyou/yinwang.git themes/yinwang
 
 Modify `theme` setting in `_config.yml` to `yinwang`.
 
-### You need Update `themes/yinwang/_config.yml`
+##### You need Update `themes/yinwang/_config.yml`
 - menu
 - favicon.ico on `themes/yinwang/sourse/favicon`
 - disqus id
-- and so on... 
+- and so on...
 
 ###Update
 
