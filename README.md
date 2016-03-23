@@ -14,7 +14,7 @@ www.fzb.me Blog Theme For Hexo
 
 ### NEW
 
-新增 Tomorrow Theme 作为代码高亮，共有5款主题供你选择。
+新增 Tomorrow Theme 作为代码高亮，共有5款主题供你选择。默认使用 白色的 `normal` 主题，可选的值有 `normal`，`night`， `night blue`， `night bright`， `night eighties`：
 
 ![image](https://github.com/mickeyouyou/yinwang/raw/master/source/images/tomorrow-normal.png)
 ![image](https://github.com/mickeyouyou/yinwang/raw/master/source/images/tomorrow-night.png)
