@@ -7,6 +7,10 @@ favicon: /favicon.ico
 # Set default keywords (Use a comma to separate)
 keywords: "My Blog, Spider Bitch!"
 
+# Code Highlight theme
+# Available value: normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: normal
 
 
 menu:
@@ -18,3 +22,9 @@ menu:
   About: /about
 
 
+
+# Static files
+#vendors: vendors
+css: css
+js: js
+images: images

@@ -28,6 +28,14 @@ Modify `theme` setting in `_config.yml` to `yinwang`.
 - favicon.ico on `themes/yinwang/sourse/favicon`
 - disqus id
 - and so on...
+- highlight theme
+
+新增 Tomorrow Theme 作为代码高亮，共有5款主题供你选择。
+![image](https://github.com/mickeyouyou/yinwang/raw/master/source/images/tomorrow-normal.png)
+![image](https://github.com/mickeyouyou/yinwang/raw/master/source/images/tomorrow-night.png)
+![image](https://github.com/mickeyouyou/yinwang/raw/master/source/images/tomorrow-night-blue.png)
+![image](https://github.com/mickeyouyou/yinwang/raw/master/source/images/tomorrow-night-eighties.png)
+![image](https://github.com/mickeyouyou/yinwang/raw/master/source/images/tomorrow-brght.png)
 
 ###Update
 
