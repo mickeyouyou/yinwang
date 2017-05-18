@@ -3,6 +3,7 @@
     <a target="_blank" href="<%- url_for(post.path)%>"><%= post.title%></a>
 </li>
 <% } else { %>
+<h2 class="title"><%= post.title%></h2>
 <%- post.content %>
 <% if (post.comments){ %>
 <!--<a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>-->
