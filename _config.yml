@@ -1,11 +1,11 @@
 # when running hexo in a subdirectory (e.g. domain.tld/blog), remove leading slashes ( "/archives" -> "archives" )
 
-version: 2.0
+version: 3.0
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "My Blog, Spider Bitch!"
+keywords: fzb.me,冯宗宝,冯宗宝的blog 
 
 # Code Highlight theme
 # Available value: normal | night | night eighties | night blue | night bright
@@ -18,8 +18,11 @@ menu:
   #categories: /categories
   #archives: /archives
   #tags: /tags
-  GitHub: https:github.com/mickeyouyou
+  Apollo: /apollo
+  Beanstalkd: /beanstalkd
   About: /about
+  #致莫急: /a-letter-to-mr-moji
+  GitHub: https:github.com/mickeyouyou
 
 
 

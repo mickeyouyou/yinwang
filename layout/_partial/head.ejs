@@ -12,13 +12,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <%if(is_home()) { %>
-    <link href="<%- url_for(theme.css) %>/home.css?v=<%- theme.version %>" rel="stylesheet" type="text/css" />
-    <%- css('css/bootstrap.min.css')%>
-    <%- css('css/bootstrap-theme.min.css')%>
+        <link href="<%- url_for(theme.css) %>/home.css?v=<%- theme.version %>" rel="stylesheet" type="text/css" />
+        <%- css('css/bootstrap.min.css')%>
+        <%- css('css/bootstrap-theme.min.css')%>
     <%} else {%>
-    <!--<%- css('css/main.css')%>-->
-	<link href="<%- url_for(theme.css) %>/main.css?v=<%- theme.version %>" rel="stylesheet" type="text/css" />
-    <!--<%- css('css/style.css')%>-->
+	   <link href="<%- url_for(theme.css) %>/main.css?v=<%- theme.version %>" rel="stylesheet" type="text/css" />
+    
+        <%- js('js/util.js') %>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
     <%}%>
 
     <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">

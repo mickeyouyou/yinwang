@@ -3,10 +3,31 @@
     <a target="_blank" href="<%- url_for(post.path)%>"><%= post.title%></a>
 </li>
 <% } else { %>
+
 <h2 class="title"><%= post.title%></h2>
+<!---
+<div style="text-align:center;margin-top: -10px;">
+<div class="article-category">
+<%- date(post.date, '发表于YYYY年M月D日') %>
+
+<% if (post.categories && post.categories.length){ %>
+    <%- list_categories(post.categories, {
+      show_count: false,
+      class: 'article-category',
+      style: 'none',
+      separator: ' | '
+    }) %>
+<% } %>
+
+
+ </div>
+--->
+</div>
+
+<%- toc(post.content, {"list_number":false}) %>
 <%- post.content %>
-<% if (post.comments){ %>
-<!--<a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>-->
+
+<!--<a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -20,10 +41,9 @@
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+-->
 <div style="display:none">
 <script src="http://s4.cnzz.com/stat.php?id=<%= config.site_id %>&web_id=<%= config.site_id %>" language="JavaScript"></script>script>
 </div>
 
-<% } %>
 <% } %>

@@ -1,11 +1,11 @@
 body {
-  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+  font-family: "Palatino Linotype", "Book Antiqua","STFangSong", Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
   font-size: 18px;
-  margin: 5% 20% 5% 20%;
   padding: 2% 5% 5% 5%;
-  width: 50%;
   line-height: 150%;
-  border: 1px solid LightGrey;
+  border: 1px solid LightGrey; 
+  margin: 5% 20% 5% 20%;//desktop version
+  width: 50%; // desktop version
 }
 
 H1 {
@@ -52,6 +52,7 @@ li {
 
 
 blockquote {
+  color:#d3d3d3;
   border-left: 4px lightgrey solid;
   padding-left: 5px;
   margin-left: 20px;
@@ -97,7 +98,7 @@ table {
 }
 
 table td, table th {
-  font-size:1em;
+  font-size: 14px;
   border:1px solid #8e908c;
   padding:3px 7px 2px 7px;
 }
@@ -117,3 +118,26 @@ table tr.alt td {
 }
 table tr:nth-child(odd){background:#F4F4F4;}
 table td:nth-child(even){}
+
+
+.toc a {
+  color:#d3d3d3;
+  border-bottom :none;
+}
+.toc a:hover{
+  color:black;
+  border-bottom :none;
+}
+
+.toc-item {
+  color:#d3d3d3;
+  border-bottom :none;
+}
+
+.toc-item a:hover{
+  border-bottom :none;
+}
+
+.article-category {
+  text-align:center;
+}
