@@ -32,5 +32,5 @@ css: css
 js: js
 images: images
 
-# Miscellaneous
-google_analytics: UA-50283736-1 # enter the tracking ID for your Google Analytics
+# Miscellaneous, enter the tracking ID for your Google Analytics
+google_analytics: 
