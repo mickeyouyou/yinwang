@@ -8,9 +8,9 @@ www.fzb.me Blog Theme For Hexo
 ### 缘由
 每篇博客就是一篇赏心悦目的文章，即使不读也很美的存在在那里。我觉得这样的版式设计很好，就在王垠博客的主题基础上，增加了一些优化，得到了这个Hexo主题。
 
-![home page](http://7tsys1.com1.z0.glb.clouddn.com/屏幕快照%202015-09-14%20下午9.28.59.png)
+![home page](http://wx1.sinaimg.cn/large/4b1ff580ly1g1oimpczcsj21n20u0tez.jpg)
 
-![content page](http://7tsys1.com1.z0.glb.clouddn.com/屏幕快照%202015-09-14%20下午9.30.51.png)
+![content page](http://wx2.sinaimg.cn/large/4b1ff580ly1g1oip0mgkqj21rs0u0k30.jpg)
 
 ### NEW
 
